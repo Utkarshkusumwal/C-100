@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's chat Rooms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <button id="logout" onclick="logout()" class="glyphicon glyphicon-log-out btn btn-danger">
+            Logout
+        </button>
+        <center>
+            <h1 class="header">Kwitter
+                <sup>
+                    <img src="m2.png">
+                </sup>
+            </h1>
+
+            <h3 class="color_white" id="user_name"></h3>
+            <div class="form-group input_div_room_page">
+                <label>#Add Room:</label>
+                <input type="text" id="room_name" class="form-control" placeholder="#Room Name">
+            </div>
+            <br>
+            <button class="btn btn-success" id="addRoom" onclick="addRoom()">#Add Room</button>
+            <h3 class="color_white" id="heading">#TRENDINGROOMS</h3>
+            <div id="output"></div>
+    </div>
+</body>
+
+</html>
